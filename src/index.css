@@ -9,28 +9,43 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 27%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 155 60% 45%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 86% 62%;
+    --accent-foreground: 215 25% 27%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
+
+    --hope: 45 86% 62%;
+    --hope-foreground: 215 25% 27%;
+    
+    --trust: 199 89% 48%;
+    --trust-foreground: 0 0% 100%;
+    
+    --care: 155 60% 45%;
+    --care-foreground: 0 0% 100%;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(var(--trust)), hsl(var(--care)));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--hope)), hsl(var(--accent)));
+    
+    --shadow-warm: 0 10px 30px -10px hsl(var(--trust) / 0.3);
+    --shadow-gentle: 0 4px 20px -4px hsl(var(--trust) / 0.15);
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
