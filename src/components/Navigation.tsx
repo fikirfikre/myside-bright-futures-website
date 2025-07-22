@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Heart, Phone, Users, BookOpen, DollarSign } from "lucide-react";
+import { Menu, Heart, Phone, Users, BookOpen, DollarSign, UserPlus, Newspaper } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
@@ -12,6 +12,8 @@ const Navigation = () => {
     { name: "Home", href: "/", icon: Heart },
     { name: "About Us", href: "/about", icon: Users },
     { name: "Programs", href: "/programs", icon: BookOpen },
+    { name: "Volunteer", href: "/volunteer", icon: UserPlus },
+    { name: "News", href: "/news", icon: Newspaper },
     { name: "Donate", href: "/donate", icon: DollarSign },
     { name: "Contact", href: "/contact", icon: Phone },
   ];
