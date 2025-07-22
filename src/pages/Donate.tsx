@@ -20,6 +20,7 @@ import {
   Stethoscope
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import Navigation from "@/components/Navigation";
 
 const Donate = () => {
   const [selectedAmount, setSelectedAmount] = useState<number | null>(null);
@@ -81,6 +82,7 @@ const Donate = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Navigation />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-hope to-care">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

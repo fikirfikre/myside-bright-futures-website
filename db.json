@@ -1,0 +1,58 @@
+{
+  "programs": [
+    {
+      "title": "Individualized Education",
+      "description": "Tailored learning programs designed specifically for each child's unique needs and abilities.",
+      "features": ["One-on-one instruction", "Adaptive curriculum", "Progress tracking"]
+    },
+    {
+      "title": "Therapeutic Services",
+      "description": "Comprehensive therapy programs including speech, occupational, and behavioral therapy.",
+      "features": ["Speech therapy", "Occupational therapy", "Behavioral counseling"]
+    },
+    {
+      "title": "Vocational Training",
+      "description": "Practical skills training to prepare our children for future employment and independence.",
+      "features": ["Life skills training", "Job readiness", "Workplace preparation"]
+    },
+    {
+      "title": "Family Support",
+      "description": "Supporting families with resources, counseling, and community connections.",
+      "features": ["Parent support groups", "Family counseling", "Resource sharing"]
+    },
+    {
+      "title": "Community Awareness",
+      "description": "Building understanding and acceptance of special needs in our community.",
+      "features": ["Public education", "Stigma reduction", "Advocacy programs"]
+    },
+    {
+      "title": "Care & Development",
+      "description": "Nurturing each child's emotional, social, and personal development.",
+      "features": ["Social skills", "Emotional support", "Personal growth"]
+    }
+  ],
+ "success-stories" :  [
+  {
+    "name": "Sarah's Journey",
+    "age": "8 years old",
+    "condition": "Down Syndrome",
+    "achievement": "Successfully integrated into mainstream education after 2 years in our program",
+    "quote": "Sarah now reads at grade level and has many friends at school."
+  },
+  {
+    "name": "Michael's Progress",
+    "age": "12 years old",
+    "condition": "Autism",
+    "achievement": "Developed strong communication skills through our speech therapy program",
+    "quote": "Michael can now express his needs clearly and participates in group activities."
+  },
+  {
+    "name": "Hanan's Success",
+    "age": "16 years old",
+    "condition": "Cerebral Palsy",
+    "achievement": "Completed vocational training and secured part-time employment",
+    "quote": "Hanan is now working at a local business and living more independently."
+  }
+]
+
+}

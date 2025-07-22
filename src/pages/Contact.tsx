@@ -18,6 +18,7 @@ import {
   Linkedin
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import Navigation from "@/components/Navigation";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -117,6 +118,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background">
+       <Navigation />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-trust to-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

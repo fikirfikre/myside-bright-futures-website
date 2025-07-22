@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Heart, Target, Users, Award, CheckCircle, Globe } from "lucide-react";
 import facilityImage from "@/assets/facility-exterior.jpg";
+import Navigation from "@/components/Navigation";
 
 const About = () => {
   const team = [
@@ -42,6 +43,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background">
+       <Navigation />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-primary to-care">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

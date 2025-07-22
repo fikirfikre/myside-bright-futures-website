@@ -16,8 +16,13 @@ import {
 import { Link } from "react-router-dom";
 import therapyImage from "@/assets/therapy-programs.jpg";
 import learningImage from "@/assets/learning-success.jpg";
+import Navigation from "@/components/Navigation";
+import { useEffect } from "react";
+import { usePrograms } from "@/hooks/usePrograms";
 
 const Programs = () => {
+  // const {programs, loading} = usePrograms();
+
   const programs = [
     {
       icon: BookOpen,
@@ -137,6 +142,7 @@ const Programs = () => {
 
   return (
     <div className="min-h-screen bg-background">
+       <Navigation />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-care to-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -197,7 +203,7 @@ const Programs = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {programs.map((program, index) => {
-              const Icon = program.icon;
+              const Icon = Heart;
               return (
                 <Card key={index} className="h-full hover:shadow-gentle transition-all duration-300 group">
                   <CardHeader>
@@ -211,7 +217,7 @@ const Programs = () => {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-4">
-                      <div className="flex flex-wrap gap-2 mb-4">
+                      {/* <div className="flex flex-wrap gap-2 mb-4">
                         <Badge variant="secondary" className="text-xs">
                           <Clock className="w-3 h-3 mr-1" />
                           {program.duration}
@@ -224,7 +230,7 @@ const Programs = () => {
                           <Target className="w-3 h-3 mr-1" />
                           {program.capacity}
                         </Badge>
-                      </div>
+                      </div> */}
                       
                       <div>
                         <h4 className="font-medium text-foreground mb-2">Program Features:</h4>

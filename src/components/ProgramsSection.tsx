@@ -3,8 +3,10 @@ import { Button } from "@/components/ui/button";
 import { BookOpen, Heart, Users, Stethoscope, GraduationCap, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import therapyImage from "@/assets/therapy-programs.jpg";
+import { usePrograms } from "@/hooks/usePrograms";
 
 const ProgramsSection = () => {
+  // const {programs, loading} = usePrograms();
   const programs = [
     {
       icon: BookOpen,
